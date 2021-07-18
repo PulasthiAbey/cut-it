@@ -30,7 +30,7 @@ const home = ({ navigation }) => {
                 >
                     <Text 
                     style={styleItem.buttonText}                   
-                    >Let's Get Started</Text>
+                    >Click Here To Get Started</Text>
                 </TouchableOpacity>
             </View>
         </ImageBackground>
