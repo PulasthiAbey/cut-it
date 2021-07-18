@@ -26,7 +26,7 @@ const home = ({ navigation }) => {
             <View>
                 <TouchableOpacity
                    style={styleItem.buttonStyle}
-                   onPress={() => {alert("Clicked")}} 
+                   onPress={() => navigation.navigate("register")} 
                 >
                     <Text 
                     style={styleItem.buttonText}                   

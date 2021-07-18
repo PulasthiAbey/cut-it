@@ -5,7 +5,7 @@ import { NavigationContainer } from "@react-navigation/native";
 import { createStackNavigator } from "@react-navigation/stack";
 
 import HomeScreen from "./src/components/home";
-// import Suggestions from "./src/components/suggestions";
+import Register from "./src/components/register";
 // import Map from "./src/components/mapItem";
 
 const Stack = createStackNavigator();
@@ -19,6 +19,7 @@ const MyStack = () => {
         }}
       >
         <Stack.Screen name="Home" component={HomeScreen} />
+        <Stack.Screen name="register" component={Register} />
         
       </Stack.Navigator>
     </NavigationContainer>
