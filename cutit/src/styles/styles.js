@@ -7,7 +7,7 @@ export default StyleSheet.create({
     justifyContent: "center",
     backgroundColor: "#43a1c9",
   },
-  
+
   setWidth: {
     padding: 10,
   },
@@ -24,16 +24,14 @@ export default StyleSheet.create({
   },
 
   buttonStyle: {
-    color: "white",
-    fontSize: 20,
-    lineHeight: 84,
-    fontWeight: "bold",
-    textAlign: "center",
     alignItems: "center",
-    borderRadius: 5,
-    paddingVertical: 12,
-    paddingHorizontal: 32,
-    borderRadius: 4,
-    elevation: 3,
+    padding: 10,
+    color: "white"
+  },
+
+  buttonText: {
+    color: "white",
+    fontWeight: "bold",
+    fontSize: 16,
   },
 });

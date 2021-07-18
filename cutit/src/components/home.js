@@ -1,5 +1,5 @@
 import React from "react";
-import { View, Text, StyleSheet, ImageBackground } from "react-native";
+import { View, Text, StyleSheet, ImageBackground, TouchableOpacity } from "react-native";
 import { Button } from "react-native-elements";
 
 import styleItem from '../styles/styles';
@@ -24,10 +24,11 @@ const home = ({ navigation }) => {
             <View style={styleItem.setWidth}/>
             <View style={styleItem.setWidth}/>
             <View>
-                <Button
-                   title="Let's Get Started"
+                <TouchableOpacity
                    style={styleItem.buttonStyle} 
-                />
+                >
+                    <Text style={styleItem.buttonText}>Let's Get Started</Text>
+                </TouchableOpacity>
             </View>
         </ImageBackground>
     </View>
