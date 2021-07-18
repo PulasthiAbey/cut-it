@@ -8,3 +8,6 @@ This is the official repository for the CUT IT Project
 * Application is developed using React Native
 * Install the following libraries before you try to run the application.
     - `npm install react-native-elements`
+    - `npm install @react-navigation/stack`
+    - `npm install @react-navigation/native`
+    - `npm install react-native-gesture-handler`
