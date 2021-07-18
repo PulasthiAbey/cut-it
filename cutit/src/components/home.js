@@ -28,11 +28,11 @@ const home = ({ navigation }) => {
       {/* submit button  */}
 
       <View style={styles.buttonContainerStyle}>
-        <Button
+        {/* <Button
           style={styles.buttonStyle}
           onPress={() => navigation.navigate("suggestions")}
           title="Checkout Suggestions"
-        />
+        /> */}
       </View>
     </ScrollView>
   );
