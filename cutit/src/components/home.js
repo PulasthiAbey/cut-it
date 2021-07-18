@@ -1,16 +1,7 @@
 import React from "react";
-import { View, Text, StyleSheet, ScrollView, ImageBackground } from "react-native";
-import {
-  Image,
-  Button,
-  Input,
-  Icon,
-  ListItem,
-  Switch,
-  TouchableOpacity,
-} from "react-native-elements";
+import { View, Text, StyleSheet, ImageBackground } from "react-native";
+import { Button } from "react-native-elements";
 
-import HeaderItem from '../utils/head';
 import styleItem from '../styles/styles';
 
 const image = require('../assets/images/barber.jpg');
