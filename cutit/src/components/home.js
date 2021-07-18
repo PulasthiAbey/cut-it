@@ -25,8 +25,18 @@ const home = ({ navigation }) => {
                 </Text>
                 <Text style={styles.subTextItem}>
                     Welcome to 
-                    <Text style={styleItem.cutit}> CUTIT</Text>
+                    <Text style={styles.cutit}> CUTIT</Text>
                 </Text>
+            </View>
+            <View style={styleItem.setWidth}/>
+            <View style={styleItem.setWidth}/>
+            <View style={styleItem.setWidth}/>
+            <View style={styleItem.setWidth}/>
+            <View>
+                <Button
+                   title="Let's Get Started"
+                   style={styleItem.buttonStyle} 
+                />
             </View>
         </ImageBackground>
     </View>
@@ -37,7 +47,7 @@ const styles = StyleSheet.create({
     image: {
     flex: 1,
     justifyContent: "center",
-    opacity: 0.8,
+    opacity: 1,
     },
 
   container: {
@@ -46,7 +56,6 @@ const styles = StyleSheet.create({
 
   mainContent: {
     alignItems: "center",
-    justifyContent: "center",
     backgroundColor: "#000000c0"
   },
 
@@ -64,6 +73,10 @@ const styles = StyleSheet.create({
     lineHeight: 42,
     fontWeight: "bold",
     textAlign: "center",
+  },
+
+  cutit: {
+    fontFamily: "VeganStylePersonalUse-5Y58",
   }
 
 });

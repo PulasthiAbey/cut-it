@@ -19,6 +19,11 @@ export default StyleSheet.create({
   },
 
   cutit: {
-    fontFamily: "OtomanopeeOne-Regular",
-  }
+    fontFamily: "VeganStylePersonalUse-5Y58",
+  },
+
+  buttonStyle: {
+    backgroundColor: "transparent",
+    color: "transparent",
+  },
 });
