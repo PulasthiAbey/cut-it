@@ -11,3 +11,6 @@ This is the official repository for the CUT IT Project
     - `npm install @react-navigation/stack`
     - `npm install @react-navigation/native`
     - `npm install react-native-gesture-handler`
+
+## Description
+* This Application is used to get in touch with the customers and the barbers to get their appointments and the details and this application can be used to collect details from the users.
