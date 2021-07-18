@@ -13,12 +13,21 @@ import {
 import HeaderItem from '../utils/head';
 import styleItem from '../styles/styles';
 
-const image = {};
+const image = require('../assets/images/barber.jpg');
 
 const home = ({ navigation }) => {
     return (
     <View style={styles.container}>
         <ImageBackground source={image} resizeMode="cover" style={styles.image}>
+            <View style={styles.mainContent}>
+                <Text style={styles.textItem}>
+                    Hello!
+                </Text>
+                <Text style={styles.subTextItem}>
+                    Welcome to 
+                    <Text style={styleItem.cutit}> CUTIT</Text>
+                </Text>
+            </View>
         </ImageBackground>
     </View>
     );
@@ -27,12 +36,36 @@ const home = ({ navigation }) => {
 const styles = StyleSheet.create({
     image: {
     flex: 1,
-    justifyContent: "center"
-  },
+    justifyContent: "center",
+    opacity: 0.8,
+    },
 
   container: {
     flex: 1,
   },
+
+  mainContent: {
+    alignItems: "center",
+    justifyContent: "center",
+    backgroundColor: "#000000c0"
+  },
+
+  textItem: {
+    color: "white",
+    fontSize: 42,
+    lineHeight: 84,
+    fontWeight: "bold",
+    textAlign: "center",
+  },
+
+  subTextItem: {
+    color: "white",
+    fontSize: 21,
+    lineHeight: 42,
+    fontWeight: "bold",
+    textAlign: "center",
+  }
+
 });
 
 export default home;

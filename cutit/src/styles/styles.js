@@ -17,4 +17,8 @@ export default StyleSheet.create({
     textAlignVertical: "center",
     flex: 1,
   },
+
+  cutit: {
+    fontFamily: "OtomanopeeOne-Regular",
+  }
 });
