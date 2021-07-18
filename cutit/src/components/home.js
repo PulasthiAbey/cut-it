@@ -11,112 +11,19 @@ import {
 } from "react-native-elements";
 
 import HeaderItem from '../utils/head';
+import styleItem from '../styles/styles';
 
 const home = ({ navigation }) => {
   // declaring the grid view of the segment
 
   return (
     <ScrollView style={styles.container}>
-      {/* header segment started */}
-     <HeaderItem/>
-      {/* // header segment ended here  */}
+     
 
       <View style={styles.widthSet} />
 
       {/* // body starts here */}
-      <Input
-        style={styles.input}
-        placeholder="Set Your Location"
-        leftIcon={
-          <Icon name="location-arrow" type="font-awesome" color="#1970E6" />
-        }
-      />
-      <View style={styles.widthSet} />
-
-      {/* segment inputs */}
-      <Text style={styles.textView}>Your Free Time Slot</Text>
-      <Input style={styles.inputBlock} placeholder="From" />
-      <Input style={styles.inputBlock} placeholder="To" />
-
-      <View style={styles.widthSet} />
-
-      {/* Preferences */}
-      <View style={styles.background}>
-        <Text style={styles.headline_text}>Select Your Preferences</Text>
-
-        <View style={styles.widthSet} />
-        {/* Basic Usage */}
-
-        <ListItem
-          style={{
-            alignItems: "center",
-            textAlign: "center",
-          }}
-        >
-          <ListItem.Content>
-            <ListItem.Title style={styles.listTitle}>Bars</ListItem.Title>
-          </ListItem.Content>
-          <View style={styles.switch}>
-            <Switch value={true} />
-          </View>
-        </ListItem>
-
-        <ListItem
-          style={{
-            alignItems: "center",
-            textAlign: "center",
-          }}
-        >
-          <ListItem.Content>
-            <ListItem.Title style={styles.listTitle}>Hotels</ListItem.Title>
-          </ListItem.Content>
-          <View style={styles.switch}>
-            <Switch value={true} />
-          </View>
-        </ListItem>
-
-        <ListItem
-          style={{
-            alignItems: "center",
-            textAlign: "center",
-          }}
-        >
-          <ListItem.Content>
-            <ListItem.Title style={styles.listTitle}>Beaches</ListItem.Title>
-          </ListItem.Content>
-          <View style={styles.switch}>
-            <Switch value={true} />
-          </View>
-        </ListItem>
-
-        <ListItem
-          style={{
-            alignItems: "center",
-            textAlign: "center",
-          }}
-        >
-          <ListItem.Content>
-            <ListItem.Title style={styles.listTitle}>Activities</ListItem.Title>
-          </ListItem.Content>
-          <View style={styles.switch}>
-            <Switch value={true} />
-          </View>
-        </ListItem>
-
-        <ListItem
-          style={{
-            alignItems: "center",
-            textAlign: "center",
-          }}
-        >
-          <ListItem.Content>
-            <ListItem.Title style={styles.listTitle}>Clubs</ListItem.Title>
-          </ListItem.Content>
-          <View style={styles.switch}>
-            <Switch value={true} />
-          </View>
-        </ListItem>
-      </View>
+      
 
       {/* submit button  */}
 
