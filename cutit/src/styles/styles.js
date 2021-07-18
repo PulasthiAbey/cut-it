@@ -26,12 +26,16 @@ export default StyleSheet.create({
   buttonStyle: {
     alignItems: "center",
     padding: 10,
-    color: "white"
+    color: "white",
+    borderWidth: 1,
+    backgroundColor: "#000000c0"
   },
 
   buttonText: {
     color: "white",
-    fontWeight: "bold",
+    fontWeight: "900",
     fontSize: 16,
+    borderColor: "black",
+    
   },
 });

@@ -25,9 +25,12 @@ const home = ({ navigation }) => {
             <View style={styleItem.setWidth}/>
             <View>
                 <TouchableOpacity
-                   style={styleItem.buttonStyle} 
+                   style={styleItem.buttonStyle}
+                   onPress={() => {alert("Clicked")}} 
                 >
-                    <Text style={styleItem.buttonText}>Let's Get Started</Text>
+                    <Text 
+                    style={styleItem.buttonText}                   
+                    >Let's Get Started</Text>
                 </TouchableOpacity>
             </View>
         </ImageBackground>
