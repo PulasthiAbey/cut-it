@@ -7,4 +7,4 @@ This is the official repository for the CUT IT Project
 ## Software Details
 * Application is developed using React Native
 * Install the following libraries before you try to run the application.
-**1. `npm install react-native-elements`**
+- `npm install react-native-elements`
