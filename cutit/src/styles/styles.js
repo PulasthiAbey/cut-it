@@ -23,7 +23,10 @@ export default StyleSheet.create({
   },
 
   buttonStyle: {
-    backgroundColor: "transparent",
-    color: "transparent",
+    color: "white",
+    fontSize: 20,
+    lineHeight: 84,
+    fontWeight: "bold",
+    textAlign: "center",
   },
 });
