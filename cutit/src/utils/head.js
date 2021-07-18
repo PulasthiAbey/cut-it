@@ -13,7 +13,7 @@ const head = ({ navigation }) => {
           <Icon
             name="navicon"
             type="font-awesome"
-            color="#1970E6"
+            color="black"
             onPress={() => {
               alert("Item Clicked");
             }}
@@ -23,7 +23,7 @@ const head = ({ navigation }) => {
           <Icon
             name="bell"
             type="font-awesome"
-            color="#1970E6"
+            color="black"
             onPress={() => {
               alert("Item Clicked");
             }}
