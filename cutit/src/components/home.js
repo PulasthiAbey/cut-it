@@ -1,5 +1,5 @@
 import React from "react";
-import { View, Text, StyleSheet, ScrollView } from "react-native";
+import { View, Text, StyleSheet, ScrollView, ImageBackground } from "react-native";
 import {
   Image,
   Button,
@@ -18,7 +18,7 @@ const home = ({ navigation }) => {
 
   return (
     <ScrollView>
-     <Image source={require('../assets/images/barber.jpg')}/>
+     <ImageBackground source={require('./src/assets/images/barber.jpg')} resizeMode="cover" style={styles.image}>
 
       <View style={styles.widthSet} />
 
@@ -34,10 +34,16 @@ const home = ({ navigation }) => {
           title="Checkout Suggestions"
         /> */}
       </View>
+      </ImageBackground>
     </ScrollView>
   );
 };
 
-const styles = StyleSheet.create({});
+const styles = StyleSheet.create({
+    image: {
+    flex: 1,
+    justifyContent: "center"
+  },
+});
 
 export default home;
