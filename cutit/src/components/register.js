@@ -1,17 +1,22 @@
 import React from "react";
-import { View, Text, StyleSheet, ImageBackground, TouchableOpacity } from "react-native";
-import { Button } from "react-native-elements";
+import {
+  View,
+  Text,
+  StyleSheet,
+  ImageBackground,
+  TouchableOpacity,
+} from "react-native";
+import { Button, ScrollView } from "react-native-elements";
 
-import styleItem from '../styles/styles';
-
-const image = require('../assets/images/barber.jpg');
+import styleItem from "../styles/styles";
+import HeaderItem from "../utils/head";
 
 const register = ({ navigation }) => {
-    return (
-    <View style={styles.container}>
-        <ImageBackground source={image} resizeMode="cover" style={styles.image}></ImageBackground>
-    </View>
-    );
+  return (
+    <ScrollView style={styles.container}>
+      <HeaderItem />
+    </ScrollView>
+  );
 };
 
 const styles = StyleSheet.create({
@@ -27,7 +32,7 @@ const styles = StyleSheet.create({
 
   mainContent: {
     alignItems: "center",
-    backgroundColor: "#000000c0"
+    backgroundColor: "#000000c0",
   },
 
   textItem: {
@@ -48,7 +53,7 @@ const styles = StyleSheet.create({
 
   cutit: {
     fontFamily: "VeganStylePersonalUse-5Y58",
-  }
-})
+  },
+});
 
- export default register;
+export default register;
