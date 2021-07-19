@@ -7,6 +7,7 @@ import { createStackNavigator } from "@react-navigation/stack";
 
 import HomeScreen from "./src/components/home";
 import Register from "./src/components/register";
+
 import useFonts from "./hooks/useFonts";
 
 const Stack = createStackNavigator();
