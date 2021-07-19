@@ -4,9 +4,10 @@ import {
   Text,
   StyleSheet,
   ImageBackground,
+  ScrollView,
   TouchableOpacity,
 } from "react-native";
-import { Button, ScrollView } from "react-native-elements";
+import { Button } from "react-native-elements";
 
 import styleItem from "../styles/styles";
 import HeaderItem from "../utils/head";

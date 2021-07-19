@@ -74,6 +74,7 @@ const styles = StyleSheet.create({
 
   cutit: {
     fontSize: 22,
+    fontFamily: "OtomanopeeOne-Regular",
   },
 });
 
