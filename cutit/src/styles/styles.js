@@ -20,7 +20,8 @@ export default StyleSheet.create({
   },
 
   cutit: {
-    fontFamily: "VeganStylePersonalUse-5Y58",
+    fontSize: 24,
+    fontFamily: "Pacifico-Regular",
   },
 
   buttonStyle: {
@@ -28,7 +29,7 @@ export default StyleSheet.create({
     padding: 10,
     color: "white",
     borderWidth: 1,
-    backgroundColor: "#000000c0"
+    backgroundColor: "#000000c0",
   },
 
   buttonText: {
@@ -36,6 +37,5 @@ export default StyleSheet.create({
     fontWeight: "900",
     fontSize: 16,
     borderColor: "black",
-    
   },
 });

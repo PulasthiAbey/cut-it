@@ -20,7 +20,7 @@ const home = ({ navigation }) => {
           <Text style={styles.textItem}>Hello!</Text>
           <Text style={styles.subTextItem}>
             Welcome to
-            <Text style={styles.cutit}> CUTIT</Text>
+            <Text style={styleItem.cutit}> CUTIT</Text>
           </Text>
         </View>
         <View style={styleItem.setWidth} />
@@ -70,11 +70,6 @@ const styles = StyleSheet.create({
     lineHeight: 42,
     fontWeight: "bold",
     textAlign: "center",
-  },
-
-  cutit: {
-    fontSize: 22,
-    fontFamily: "OtomanopeeOne-Regular",
   },
 });
 
