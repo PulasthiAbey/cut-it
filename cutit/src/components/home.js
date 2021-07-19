@@ -5,6 +5,7 @@ import {
   StyleSheet,
   ImageBackground,
   TouchableOpacity,
+  Animated,
 } from "react-native";
 import { Button } from "react-native-elements";
 
