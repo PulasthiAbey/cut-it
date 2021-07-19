@@ -1,49 +1,51 @@
 import React from "react";
-import { View, Text, StyleSheet, ImageBackground, TouchableOpacity } from "react-native";
+import {
+  View,
+  Text,
+  StyleSheet,
+  ImageBackground,
+  TouchableOpacity,
+} from "react-native";
 import { Button } from "react-native-elements";
 
-import styleItem from '../styles/styles';
+import styleItem from "../styles/styles";
 
-const image = require('../assets/images/barber.jpg');
+const image = require("../assets/images/barber.jpg");
 
 const home = ({ navigation }) => {
-    return (
+  return (
     <View style={styles.container}>
-        <ImageBackground source={image} resizeMode="cover" style={styles.image}>
-            <View style={styles.mainContent}>
-                <Text style={styles.textItem}>
-                    Hello!
-                </Text>
-                <Text style={styles.subTextItem}>
-                    Welcome to 
-                    <Text style={styles.cutit}> CUTIT</Text>
-                </Text>
-            </View>
-            <View style={styleItem.setWidth}/>
-            <View style={styleItem.setWidth}/>
-            <View style={styleItem.setWidth}/>
-            <View style={styleItem.setWidth}/>
-            <View>
-                <TouchableOpacity
-                   style={styleItem.buttonStyle}
-                   onPress={() => navigation.navigate("register")} 
-                >
-                    <Text 
-                    style={styleItem.buttonText}                   
-                    >Click Here To Get Started</Text>
-                </TouchableOpacity>
-            </View>
-        </ImageBackground>
+      <ImageBackground source={image} resizeMode="cover" style={styles.image}>
+        <View style={styles.mainContent}>
+          <Text style={styles.textItem}>Hello!</Text>
+          <Text style={styles.subTextItem}>
+            Welcome to
+            <Text style={styles.cutit}> CUTIT</Text>
+          </Text>
+        </View>
+        <View style={styleItem.setWidth} />
+        <View style={styleItem.setWidth} />
+        <View style={styleItem.setWidth} />
+        <View style={styleItem.setWidth} />
+        <View>
+          <TouchableOpacity
+            style={styleItem.buttonStyle}
+            onPress={() => navigation.navigate("register")}
+          >
+            <Text style={styleItem.buttonText}>Click Here To Get Started</Text>
+          </TouchableOpacity>
+        </View>
+      </ImageBackground>
     </View>
-    );
+  );
 };
 
 const styles = StyleSheet.create({
-    image: {
+  image: {
     flex: 1,
     justifyContent: "center",
     opacity: 1,
-    },
+  },
 
   container: {
     flex: 1,
@@ -51,7 +53,7 @@ const styles = StyleSheet.create({
 
   mainContent: {
     alignItems: "center",
-    backgroundColor: "#000000c0"
+    backgroundColor: "#000000c0",
   },
 
   textItem: {
@@ -71,9 +73,8 @@ const styles = StyleSheet.create({
   },
 
   cutit: {
-    fontFamily: "VeganStylePersonalUse-5Y58",
-  }
-
+    fontSize: 22,
+  },
 });
 
 export default home;

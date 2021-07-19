@@ -50,10 +50,6 @@ const styles = StyleSheet.create({
     fontWeight: "bold",
     textAlign: "center",
   },
-
-  cutit: {
-    fontFamily: "VeganStylePersonalUse-5Y58",
-  },
 });
 
 export default register;
