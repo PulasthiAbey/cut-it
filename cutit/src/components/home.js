@@ -31,7 +31,7 @@ const home = ({ navigation }) => {
         <View>
           <TouchableOpacity
             style={styleItem.buttonStyle}
-            onPress={() => navigation.navigate("register")}
+            onPress={() => navigation.navigate("Register")}
           >
             <Text style={styleItem.buttonText}>Click Here To Get Started</Text>
           </TouchableOpacity>
