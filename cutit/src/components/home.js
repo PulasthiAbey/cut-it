@@ -8,7 +8,6 @@ import {
   Animated,
 } from "react-native";
 import { Button } from "react-native-elements";
-
 import styleItem from "../styles/styles";
 
 const image = require("../assets/images/barber.jpg");
